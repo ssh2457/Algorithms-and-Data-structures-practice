@@ -17,6 +17,8 @@ MyStack::MyStack(size_t stackSize)
 MyStack::~MyStack() {
     if (mStack) delete[] mStack;
     mStack = nullptr;
+
+    cout << "Destructor is called" << endl;
 }
 
 void MyStack::push(int num) {
@@ -93,6 +95,7 @@ bool MyStack::search(int num) {
     cout << "mStackSize: " << mStackSize << endl;
     cout << "search ends" << endl
          << endl;
+
     return isFound;
 }
 
