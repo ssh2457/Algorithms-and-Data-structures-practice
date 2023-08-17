@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/build",
+  "command": "/usr/bin/g++   -g -Wall -Werror -std=gnu++17 -o CMakeFiles/week1.dir/test.cpp.o -c /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/test.cpp",
+  "file": "/home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/test.cpp"
+},
+{
+  "directory": "/home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/build",
+  "command": "/usr/bin/g++   -g -Wall -Werror -std=gnu++17 -o CMakeFiles/week1.dir/MyStack.cpp.o -c /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/MyStack.cpp",
+  "file": "/home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/MyStack.cpp"
+}
+]

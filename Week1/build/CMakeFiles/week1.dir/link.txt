@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/week1.dir/test.cpp.o CMakeFiles/week1.dir/MyStack.cpp.o -o week1 
