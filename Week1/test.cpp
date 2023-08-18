@@ -1,5 +1,6 @@
 #include <iostream>
 
+#include "MyQueue.h"
 #include "MyStack.h"
 
 using namespace std;
@@ -17,16 +18,22 @@ int main(void) {
     stack1.push(80);
     stack1.push(90);
     stack1.push(100);
+    stack1.printInfo();
 
     stack1.pop();
     stack1.pop();
     stack1.pop();
     stack1.pop();
+    stack1.printInfo();
 
     stack1.search(10);
+    stack1.printInfo();
+
     stack1.search(70);
+    stack1.printInfo();
 
     stack1.clear();
+    stack1.printInfo();
 
     return 0;
 }

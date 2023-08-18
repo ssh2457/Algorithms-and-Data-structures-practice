@@ -129,6 +129,30 @@ week1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/week1.dir/build.make CMakeFiles/week1.dir/build
 .PHONY : week1/fast
 
+MyQueue.o: MyQueue.cpp.o
+.PHONY : MyQueue.o
+
+# target to build an object file
+MyQueue.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week1.dir/build.make CMakeFiles/week1.dir/MyQueue.cpp.o
+.PHONY : MyQueue.cpp.o
+
+MyQueue.i: MyQueue.cpp.i
+.PHONY : MyQueue.i
+
+# target to preprocess a source file
+MyQueue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week1.dir/build.make CMakeFiles/week1.dir/MyQueue.cpp.i
+.PHONY : MyQueue.cpp.i
+
+MyQueue.s: MyQueue.cpp.s
+.PHONY : MyQueue.s
+
+# target to generate assembly for a file
+MyQueue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week1.dir/build.make CMakeFiles/week1.dir/MyQueue.cpp.s
+.PHONY : MyQueue.cpp.s
+
 MyStack.o: MyStack.cpp.o
 .PHONY : MyStack.o
 
@@ -186,6 +210,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... week1"
+	@echo "... MyQueue.o"
+	@echo "... MyQueue.i"
+	@echo "... MyQueue.s"
 	@echo "... MyStack.o"
 	@echo "... MyStack.i"
 	@echo "... MyStack.s"
