@@ -23,4 +23,6 @@ class MyStack {
     size_t mSize;
     size_t mCapacity;
     int* mStack;
+
+    void increaseCapacity();
 };

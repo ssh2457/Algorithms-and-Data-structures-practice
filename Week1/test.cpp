@@ -35,5 +35,28 @@ int main(void) {
     stack1.clear();
     stack1.printInfo();
 
+    MyQueue queue1;
+    queue1.enqueue(10);
+    queue1.enqueue(20);
+    queue1.enqueue(30);
+    queue1.enqueue(40);
+    queue1.enqueue(50);
+    queue1.enqueue(60);
+    queue1.enqueue(70);
+    queue1.printInfo();
+    queue1.enqueue(80);
+    queue1.printInfo();
+
+    if (!queue1.isEmpty()) queue1.dequeue();
+    queue1.printInfo();
+
+    queue1.enqueue(90);
+    queue1.printInfo();
+    queue1.enqueue(100);
+    queue1.printInfo();
+
+    queue1.search(100);
+    queue1.search(20);
+    queue1.search(10);
     return 0;
 }

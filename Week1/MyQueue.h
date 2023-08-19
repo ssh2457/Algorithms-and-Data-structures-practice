@@ -10,8 +10,10 @@ class MyQueue {
 
     virtual void enqueue(int num);
     virtual int dequeue();
+    virtual bool search(int num);
 
     virtual bool isEmpty();
+    virtual void printInfo();
 
    private:
     size_t mSize;
@@ -19,4 +21,6 @@ class MyQueue {
     size_t mFront;
     size_t mBack;
     int* mQueue;
+
+    void increaseCapacity();
 };

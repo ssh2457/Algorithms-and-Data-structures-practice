@@ -30,15 +30,11 @@ size_t MyStack::getSize() const {
 }
 
 void MyStack::push(int num) {
-    mStack[mSize] = num;
-    ++mSize;
-    if (mSize == mCapacity) {
-        int* backup_p = mStack;
-        if (nullptr == (mStack = static_cast<int*>(realloc(mStack, 2 * sizeof(int) * mCapacity)))) {
-            mStack = backup_p;
-            cout << "Stack size can not be extended." << endl;
-        } else {
-            mCapacity *= 2;
+    if (mSize < mCapacity) {
+        mStack[mSize] = num;
+        ++mSize;
+        if (mSize == mCapacity) {
+            increaseCapacity();
         }
     }
 }
@@ -50,7 +46,7 @@ int MyStack::pop() {
 }
 
 bool MyStack::search(int num) {
-    bool isFound = false;
+    bool hasNum = false;
 
     MyStack tmpStack;
 
@@ -58,7 +54,7 @@ bool MyStack::search(int num) {
     while (idx < mSize) {
         int popNum = pop();
         if (popNum == num) {
-            isFound = true;
+            hasNum = true;
             push(popNum);
             break;
         } else {
@@ -71,8 +67,8 @@ bool MyStack::search(int num) {
         push(tmpStack.pop());
     }
 
-    cout << "search result(" << num << "): " << isFound << endl;
-    return isFound;
+    cout << "search result(" << num << "): " << hasNum << endl;
+    return hasNum;
 }
 
 void MyStack::clear() {
@@ -94,4 +90,14 @@ void MyStack::printInfo() {
     }
     cout << endl
          << endl;
+}
+
+void MyStack::increaseCapacity() {
+    int* backup_p = mStack;
+    if (nullptr == (mStack = static_cast<int*>(realloc(mStack, 2 * sizeof(int) * mCapacity)))) {
+        mStack = backup_p;
+        cout << "Stack size can not be extended." << endl;
+    } else {
+        mCapacity *= 2;
+    }
 }
