@@ -1,0 +1,3 @@
+/home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week2/build/CMakeFiles/week2.dir
+/home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week2/build/CMakeFiles/edit_cache.dir
+/home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week2/build/CMakeFiles/rebuild_cache.dir
