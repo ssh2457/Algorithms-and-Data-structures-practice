@@ -13,5 +13,15 @@
   "directory": "/home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/build",
   "command": "/usr/bin/g++   -g -Wall -Werror -std=gnu++17 -o CMakeFiles/week1.dir/MyQueue.cpp.o -c /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/MyQueue.cpp",
   "file": "/home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/MyQueue.cpp"
+},
+{
+  "directory": "/home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/build",
+  "command": "/usr/bin/g++   -g -Wall -Werror -std=gnu++17 -o CMakeFiles/week1.dir/MyHeapAllocation.cpp.o -c /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/MyHeapAllocation.cpp",
+  "file": "/home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/MyHeapAllocation.cpp"
+},
+{
+  "directory": "/home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/build",
+  "command": "/usr/bin/g++   -g -Wall -Werror -std=gnu++17 -o CMakeFiles/week1.dir/MyArray.cpp.o -c /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/MyArray.cpp",
+  "file": "/home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/MyArray.cpp"
 }
 ]

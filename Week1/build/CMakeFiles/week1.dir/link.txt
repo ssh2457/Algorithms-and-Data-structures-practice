@@ -1,1 +1,1 @@
-/usr/bin/g++ -g CMakeFiles/week1.dir/test.cpp.o CMakeFiles/week1.dir/MyStack.cpp.o CMakeFiles/week1.dir/MyQueue.cpp.o -o week1 
+/usr/bin/clang++-14 -g CMakeFiles/week1.dir/test.cpp.o CMakeFiles/week1.dir/MyStack.cpp.o CMakeFiles/week1.dir/MyQueue.cpp.o CMakeFiles/week1.dir/MyHeapAllocation.cpp.o CMakeFiles/week1.dir/MyArray.cpp.o -o week1 

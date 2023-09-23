@@ -129,6 +129,54 @@ week1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/week1.dir/build.make CMakeFiles/week1.dir/build
 .PHONY : week1/fast
 
+MyArray.o: MyArray.cpp.o
+.PHONY : MyArray.o
+
+# target to build an object file
+MyArray.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week1.dir/build.make CMakeFiles/week1.dir/MyArray.cpp.o
+.PHONY : MyArray.cpp.o
+
+MyArray.i: MyArray.cpp.i
+.PHONY : MyArray.i
+
+# target to preprocess a source file
+MyArray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week1.dir/build.make CMakeFiles/week1.dir/MyArray.cpp.i
+.PHONY : MyArray.cpp.i
+
+MyArray.s: MyArray.cpp.s
+.PHONY : MyArray.s
+
+# target to generate assembly for a file
+MyArray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week1.dir/build.make CMakeFiles/week1.dir/MyArray.cpp.s
+.PHONY : MyArray.cpp.s
+
+MyHeapAllocation.o: MyHeapAllocation.cpp.o
+.PHONY : MyHeapAllocation.o
+
+# target to build an object file
+MyHeapAllocation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week1.dir/build.make CMakeFiles/week1.dir/MyHeapAllocation.cpp.o
+.PHONY : MyHeapAllocation.cpp.o
+
+MyHeapAllocation.i: MyHeapAllocation.cpp.i
+.PHONY : MyHeapAllocation.i
+
+# target to preprocess a source file
+MyHeapAllocation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week1.dir/build.make CMakeFiles/week1.dir/MyHeapAllocation.cpp.i
+.PHONY : MyHeapAllocation.cpp.i
+
+MyHeapAllocation.s: MyHeapAllocation.cpp.s
+.PHONY : MyHeapAllocation.s
+
+# target to generate assembly for a file
+MyHeapAllocation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week1.dir/build.make CMakeFiles/week1.dir/MyHeapAllocation.cpp.s
+.PHONY : MyHeapAllocation.cpp.s
+
 MyQueue.o: MyQueue.cpp.o
 .PHONY : MyQueue.o
 
@@ -210,6 +258,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... week1"
+	@echo "... MyArray.o"
+	@echo "... MyArray.i"
+	@echo "... MyArray.s"
+	@echo "... MyHeapAllocation.o"
+	@echo "... MyHeapAllocation.i"
+	@echo "... MyHeapAllocation.s"
 	@echo "... MyQueue.o"
 	@echo "... MyQueue.i"
 	@echo "... MyQueue.s"

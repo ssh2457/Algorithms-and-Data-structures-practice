@@ -1,26 +1,21 @@
 #pragma once
 
-#include <cstddef>
+#include "MyHeapAllocation.h"
 
-class MyQueue {
+class MyQueue : public MyHeapAllocation {
    public:
     MyQueue();
     MyQueue(size_t capacity);
-    ~MyQueue();
+    virtual ~MyQueue();
 
     virtual void enqueue(int num);
     virtual int dequeue();
     virtual bool search(int num);
 
     virtual bool isEmpty();
-    virtual void printInfo();
+    virtual void printInfo() override;
 
    private:
-    size_t mSize;
-    size_t mCapacity;
     size_t mFront;
     size_t mBack;
-    int* mQueue;
-
-    void increaseCapacity();
 };

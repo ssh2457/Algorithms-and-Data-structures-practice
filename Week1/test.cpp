@@ -1,11 +1,33 @@
 #include <iostream>
 
+#include "MyArray.h"
 #include "MyQueue.h"
 #include "MyStack.h"
 
 using namespace std;
 
 int main(void) {
+    MyArray array1;
+    array1.insertAt(0, 0);
+    array1.insertAt(0, 1);
+    array1.insertAt(0, 2);
+    array1.insertAt(0, 3);
+    array1.insertAt(0, 4);
+    array1.insertAt(0, 5);
+    array1.insertAt(0, 6);
+    array1.insertAt(0, 7);
+    array1.insertAt(7, 8);
+
+    array1.printInfo();
+
+    array1.removeAt(7);
+    array1.removeAt(0);
+    array1.removeAt(0);
+    array1.removeAt(5);
+    array1.printInfo();
+
+    cout << "index: " << array1.findIndex(20) << endl;
+
     MyStack stack1;
 
     stack1.push(10);

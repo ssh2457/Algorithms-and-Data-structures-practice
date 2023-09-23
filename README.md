@@ -4,4 +4,6 @@ This is for practicing algorithms and data structures in c++.
 
 Week1: Implement array, stack, queue, linked list and hash.
 
-Week2: Implement recursive functions.
+Week2: Implement recursive functions and a binary search algorithm.
+
+Week3: Implement sorting algorithms.

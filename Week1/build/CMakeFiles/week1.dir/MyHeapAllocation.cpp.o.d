@@ -1,6 +1,5 @@
-CMakeFiles/week1.dir/MyStack.cpp.o: \
-  /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/MyStack.cpp \
-  /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/MyStack.h \
+CMakeFiles/week1.dir/MyHeapAllocation.cpp.o: \
+  /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/MyHeapAllocation.cpp \
   /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/MyHeapAllocation.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cstddef \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/bits/c++config.h \

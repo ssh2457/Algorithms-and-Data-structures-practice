@@ -73,49 +73,79 @@ CMakeFiles/week1.dir/test.cpp.o: CMakeFiles/week1.dir/flags.make
 CMakeFiles/week1.dir/test.cpp.o: ../test.cpp
 CMakeFiles/week1.dir/test.cpp.o: CMakeFiles/week1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/week1.dir/test.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/week1.dir/test.cpp.o -MF CMakeFiles/week1.dir/test.cpp.o.d -o CMakeFiles/week1.dir/test.cpp.o -c /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/test.cpp
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/week1.dir/test.cpp.o -MF CMakeFiles/week1.dir/test.cpp.o.d -o CMakeFiles/week1.dir/test.cpp.o -c /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/test.cpp
 
 CMakeFiles/week1.dir/test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/week1.dir/test.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/test.cpp > CMakeFiles/week1.dir/test.cpp.i
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/test.cpp > CMakeFiles/week1.dir/test.cpp.i
 
 CMakeFiles/week1.dir/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/week1.dir/test.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/test.cpp -o CMakeFiles/week1.dir/test.cpp.s
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/test.cpp -o CMakeFiles/week1.dir/test.cpp.s
 
 CMakeFiles/week1.dir/MyStack.cpp.o: CMakeFiles/week1.dir/flags.make
 CMakeFiles/week1.dir/MyStack.cpp.o: ../MyStack.cpp
 CMakeFiles/week1.dir/MyStack.cpp.o: CMakeFiles/week1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/week1.dir/MyStack.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/week1.dir/MyStack.cpp.o -MF CMakeFiles/week1.dir/MyStack.cpp.o.d -o CMakeFiles/week1.dir/MyStack.cpp.o -c /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/MyStack.cpp
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/week1.dir/MyStack.cpp.o -MF CMakeFiles/week1.dir/MyStack.cpp.o.d -o CMakeFiles/week1.dir/MyStack.cpp.o -c /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/MyStack.cpp
 
 CMakeFiles/week1.dir/MyStack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/week1.dir/MyStack.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/MyStack.cpp > CMakeFiles/week1.dir/MyStack.cpp.i
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/MyStack.cpp > CMakeFiles/week1.dir/MyStack.cpp.i
 
 CMakeFiles/week1.dir/MyStack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/week1.dir/MyStack.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/MyStack.cpp -o CMakeFiles/week1.dir/MyStack.cpp.s
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/MyStack.cpp -o CMakeFiles/week1.dir/MyStack.cpp.s
 
 CMakeFiles/week1.dir/MyQueue.cpp.o: CMakeFiles/week1.dir/flags.make
 CMakeFiles/week1.dir/MyQueue.cpp.o: ../MyQueue.cpp
 CMakeFiles/week1.dir/MyQueue.cpp.o: CMakeFiles/week1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/week1.dir/MyQueue.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/week1.dir/MyQueue.cpp.o -MF CMakeFiles/week1.dir/MyQueue.cpp.o.d -o CMakeFiles/week1.dir/MyQueue.cpp.o -c /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/MyQueue.cpp
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/week1.dir/MyQueue.cpp.o -MF CMakeFiles/week1.dir/MyQueue.cpp.o.d -o CMakeFiles/week1.dir/MyQueue.cpp.o -c /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/MyQueue.cpp
 
 CMakeFiles/week1.dir/MyQueue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/week1.dir/MyQueue.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/MyQueue.cpp > CMakeFiles/week1.dir/MyQueue.cpp.i
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/MyQueue.cpp > CMakeFiles/week1.dir/MyQueue.cpp.i
 
 CMakeFiles/week1.dir/MyQueue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/week1.dir/MyQueue.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/MyQueue.cpp -o CMakeFiles/week1.dir/MyQueue.cpp.s
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/MyQueue.cpp -o CMakeFiles/week1.dir/MyQueue.cpp.s
+
+CMakeFiles/week1.dir/MyHeapAllocation.cpp.o: CMakeFiles/week1.dir/flags.make
+CMakeFiles/week1.dir/MyHeapAllocation.cpp.o: ../MyHeapAllocation.cpp
+CMakeFiles/week1.dir/MyHeapAllocation.cpp.o: CMakeFiles/week1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/week1.dir/MyHeapAllocation.cpp.o"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/week1.dir/MyHeapAllocation.cpp.o -MF CMakeFiles/week1.dir/MyHeapAllocation.cpp.o.d -o CMakeFiles/week1.dir/MyHeapAllocation.cpp.o -c /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/MyHeapAllocation.cpp
+
+CMakeFiles/week1.dir/MyHeapAllocation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/week1.dir/MyHeapAllocation.cpp.i"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/MyHeapAllocation.cpp > CMakeFiles/week1.dir/MyHeapAllocation.cpp.i
+
+CMakeFiles/week1.dir/MyHeapAllocation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/week1.dir/MyHeapAllocation.cpp.s"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/MyHeapAllocation.cpp -o CMakeFiles/week1.dir/MyHeapAllocation.cpp.s
+
+CMakeFiles/week1.dir/MyArray.cpp.o: CMakeFiles/week1.dir/flags.make
+CMakeFiles/week1.dir/MyArray.cpp.o: ../MyArray.cpp
+CMakeFiles/week1.dir/MyArray.cpp.o: CMakeFiles/week1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/week1.dir/MyArray.cpp.o"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/week1.dir/MyArray.cpp.o -MF CMakeFiles/week1.dir/MyArray.cpp.o.d -o CMakeFiles/week1.dir/MyArray.cpp.o -c /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/MyArray.cpp
+
+CMakeFiles/week1.dir/MyArray.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/week1.dir/MyArray.cpp.i"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/MyArray.cpp > CMakeFiles/week1.dir/MyArray.cpp.i
+
+CMakeFiles/week1.dir/MyArray.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/week1.dir/MyArray.cpp.s"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/MyArray.cpp -o CMakeFiles/week1.dir/MyArray.cpp.s
 
 # Object files for target week1
 week1_OBJECTS = \
 "CMakeFiles/week1.dir/test.cpp.o" \
 "CMakeFiles/week1.dir/MyStack.cpp.o" \
-"CMakeFiles/week1.dir/MyQueue.cpp.o"
+"CMakeFiles/week1.dir/MyQueue.cpp.o" \
+"CMakeFiles/week1.dir/MyHeapAllocation.cpp.o" \
+"CMakeFiles/week1.dir/MyArray.cpp.o"
 
 # External object files for target week1
 week1_EXTERNAL_OBJECTS =
@@ -123,9 +153,11 @@ week1_EXTERNAL_OBJECTS =
 week1: CMakeFiles/week1.dir/test.cpp.o
 week1: CMakeFiles/week1.dir/MyStack.cpp.o
 week1: CMakeFiles/week1.dir/MyQueue.cpp.o
+week1: CMakeFiles/week1.dir/MyHeapAllocation.cpp.o
+week1: CMakeFiles/week1.dir/MyArray.cpp.o
 week1: CMakeFiles/week1.dir/build.make
 week1: CMakeFiles/week1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable week1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable week1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/week1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

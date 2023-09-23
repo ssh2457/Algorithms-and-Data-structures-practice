@@ -6,6 +6,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_COMPILER "/usr/bin/clang++-14" CACHE STRING "C++ compiler" FORCE)
 set(CMAKE_BUILD_TYPE "Debug")
 
-add_executable(${PROJECT_NAME} test.cpp MyStack.cpp MyQueue.cpp)
+add_executable(${PROJECT_NAME} test.cpp MyStack.cpp MyQueue.cpp MyHeapAllocation.cpp MyArray.cpp)
 
 target_compile_options(${PROJECT_NAME} PUBLIC -Wall -Werror)

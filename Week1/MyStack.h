@@ -1,12 +1,12 @@
 #pragma once
 
-#include <cstddef>
+#include "MyHeapAllocation.h"
 
-class MyStack {
+class MyStack : public MyHeapAllocation {
    public:
     MyStack();
     MyStack(size_t capacity);
-    ~MyStack();
+    virtual ~MyStack();
 
     virtual void push(int num);
     virtual int pop();
@@ -17,12 +17,7 @@ class MyStack {
     virtual size_t getSize() const;
     virtual size_t getCapacity() const;
 
-    virtual void printInfo();
+    virtual void printInfo() override;
 
    private:
-    size_t mSize;
-    size_t mCapacity;
-    int* mStack;
-
-    void increaseCapacity();
 };

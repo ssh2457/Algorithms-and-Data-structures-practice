@@ -5,19 +5,14 @@
 using namespace std;
 
 MyStack::MyStack()
-    : mSize(0), mCapacity(8), mStack(nullptr) {
-    mStack = new int[mCapacity];
+    : MyHeapAllocation() {
 }
 
 MyStack::MyStack(size_t capacity)
-    : mSize(0), mCapacity(capacity), mStack(nullptr) {
-    mStack = new int[mCapacity];
+    : MyHeapAllocation(capacity) {
 }
 
 MyStack::~MyStack() {
-    if (mStack) delete[] mStack;
-    mStack = nullptr;
-
     cout << "Destructor is called" << endl;
 }
 
@@ -31,7 +26,7 @@ size_t MyStack::getSize() const {
 
 void MyStack::push(int num) {
     if (mSize < mCapacity) {
-        mStack[mSize] = num;
+        mHeap[mSize] = num;
         ++mSize;
         if (mSize == mCapacity) {
             increaseCapacity();
@@ -40,7 +35,7 @@ void MyStack::push(int num) {
 }
 
 int MyStack::pop() {
-    int num = mStack[mSize - 1];
+    int num = mHeap[mSize - 1];
     --mSize;
     return num;
 }
@@ -86,18 +81,8 @@ void MyStack::printInfo() {
     cout << "mCapacity: " << mCapacity << endl;
     cout << "stack: ";
     for (size_t i = 0; i < mSize; ++i) {
-        cout << mStack[i] << " ";
+        cout << mHeap[i] << " ";
     }
     cout << endl
          << endl;
-}
-
-void MyStack::increaseCapacity() {
-    int* backup_p = mStack;
-    if (nullptr == (mStack = static_cast<int*>(realloc(mStack, 2 * sizeof(int) * mCapacity)))) {
-        mStack = backup_p;
-        cout << "Stack size can not be extended." << endl;
-    } else {
-        mCapacity *= 2;
-    }
 }

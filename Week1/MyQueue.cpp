@@ -5,23 +5,19 @@
 using namespace std;
 
 MyQueue::MyQueue()
-    : mSize(0), mCapacity(8), mFront(0), mBack(0), mQueue(nullptr) {
-    mQueue = new int[mCapacity];
+    : MyHeapAllocation(), mFront(0), mBack(0) {
 }
 
 MyQueue::MyQueue(size_t capacity)
-    : mSize(0), mCapacity(capacity), mFront(0), mBack(0), mQueue(nullptr) {
-    mQueue = new int[mCapacity];
+    : MyHeapAllocation(capacity), mFront(0), mBack(0) {
 }
 
 MyQueue::~MyQueue() {
-    delete[] mQueue;
-    mQueue = nullptr;
 }
 
 void MyQueue::enqueue(int num) {
     if (mSize < mCapacity) {
-        mQueue[mBack] = num;
+        mHeap[mBack] = num;
         ++mSize;
         if (mSize == mCapacity) {
             increaseCapacity();
@@ -33,7 +29,7 @@ void MyQueue::enqueue(int num) {
 }
 
 int MyQueue::dequeue() {
-    int num = mQueue[mFront];
+    int num = mHeap[mFront];
     --mSize;
     mFront = (mFront + 1) % mCapacity;
     return num;
@@ -71,18 +67,8 @@ void MyQueue::printInfo() {
 
     cout << "queue: ";
     for (size_t i = 0; i < mSize; ++i) {
-        cout << mQueue[(mFront + i) % mCapacity] << " ";
+        cout << mHeap[(mFront + i) % mCapacity] << " ";
     }
     cout << endl
          << endl;
-}
-
-void MyQueue::increaseCapacity() {
-    int* backup_p = mQueue;
-    if (nullptr == (mQueue = static_cast<int*>(realloc(mQueue, 2 * sizeof(int) * mCapacity)))) {
-        mQueue = backup_p;
-        cout << "Stack size can not be extended." << endl;
-    } else {
-        mCapacity *= 2;
-    }
 }

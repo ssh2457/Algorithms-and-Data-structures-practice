@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/week1.dir/MyArray.cpp.o"
+  "CMakeFiles/week1.dir/MyArray.cpp.o.d"
+  "CMakeFiles/week1.dir/MyHeapAllocation.cpp.o"
+  "CMakeFiles/week1.dir/MyHeapAllocation.cpp.o.d"
   "CMakeFiles/week1.dir/MyQueue.cpp.o"
   "CMakeFiles/week1.dir/MyQueue.cpp.o.d"
   "CMakeFiles/week1.dir/MyStack.cpp.o"
