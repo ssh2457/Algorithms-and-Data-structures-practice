@@ -1,5 +1,6 @@
-CMakeFiles/week1.dir/test.cpp.o: \
-  /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/test.cpp \
+CMakeFiles/week1.dir/MyLinkedList.cpp.o: \
+  /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/MyLinkedList.cpp \
+  /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/MyLinkedList.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/iostream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -167,10 +168,4 @@ CMakeFiles/week1.dir/test.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/basic_ios.tcc \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/ostream.tcc \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/istream \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/istream.tcc \
-  /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/MyArray.h \
-  /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/MyHeapAllocation.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cstddef \
-  /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/MyLinkedList.h \
-  /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/MyQueue.h \
-  /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/MyStack.h
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/istream.tcc

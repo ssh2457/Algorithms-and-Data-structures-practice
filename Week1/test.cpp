@@ -1,12 +1,22 @@
 #include <iostream>
 
 #include "MyArray.h"
+#include "MyLinkedList.h"
 #include "MyQueue.h"
 #include "MyStack.h"
 
 using namespace std;
 
 int main(void) {
+    MyLinkedList list;
+    list.insertFront(3);
+    list.insertFront(5);
+    list.insertFront(2);
+    list.insertFront(0);
+    list.printNode();
+    list.remove(3);
+    list.printNode();
+    /*
     MyArray array1;
     array1.insertAt(0, 0);
     array1.insertAt(0, 1);
@@ -80,5 +90,6 @@ int main(void) {
     queue1.search(100);
     queue1.search(20);
     queue1.search(10);
+    */
     return 0;
 }

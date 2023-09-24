@@ -177,6 +177,30 @@ MyHeapAllocation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/week1.dir/build.make CMakeFiles/week1.dir/MyHeapAllocation.cpp.s
 .PHONY : MyHeapAllocation.cpp.s
 
+MyLinkedList.o: MyLinkedList.cpp.o
+.PHONY : MyLinkedList.o
+
+# target to build an object file
+MyLinkedList.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week1.dir/build.make CMakeFiles/week1.dir/MyLinkedList.cpp.o
+.PHONY : MyLinkedList.cpp.o
+
+MyLinkedList.i: MyLinkedList.cpp.i
+.PHONY : MyLinkedList.i
+
+# target to preprocess a source file
+MyLinkedList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week1.dir/build.make CMakeFiles/week1.dir/MyLinkedList.cpp.i
+.PHONY : MyLinkedList.cpp.i
+
+MyLinkedList.s: MyLinkedList.cpp.s
+.PHONY : MyLinkedList.s
+
+# target to generate assembly for a file
+MyLinkedList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week1.dir/build.make CMakeFiles/week1.dir/MyLinkedList.cpp.s
+.PHONY : MyLinkedList.cpp.s
+
 MyQueue.o: MyQueue.cpp.o
 .PHONY : MyQueue.o
 
@@ -264,6 +288,9 @@ help:
 	@echo "... MyHeapAllocation.o"
 	@echo "... MyHeapAllocation.i"
 	@echo "... MyHeapAllocation.s"
+	@echo "... MyLinkedList.o"
+	@echo "... MyLinkedList.i"
+	@echo "... MyLinkedList.s"
 	@echo "... MyQueue.o"
 	@echo "... MyQueue.i"
 	@echo "... MyQueue.s"
