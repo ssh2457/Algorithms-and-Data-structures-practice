@@ -44,6 +44,30 @@ int binarySearchRecursive(vector<int>& vec, int leftIndex, int rightIndex, int v
     }
 }
 
+int indexOfRotatedArray(int* array, int start, int end, int num) {
+    if (start > end) {
+        return -1;
+    }
+
+    int mid = (start + end) / 2;
+
+    if (array[mid] == num) {
+        return mid;
+    }
+
+    if (array[start] <= array[mid]) {
+        if (array[start] <= num && num <= array[mid]) {
+            return indexOfRotatedArray(array, start, mid - 1, num);
+        }
+        return indexOfRotatedArray(array, mid + 1, end, num);
+    }
+
+    if (array[mid] <= num && num <= array[end]) {
+        return indexOfRotatedArray(array, mid + 1, end, num);
+    }
+    return indexOfRotatedArray(array, start, mid - 1, num);
+}
+
 int main(void) {
     int fibonacciResult = fibanocciRecursive(5);
     int factorialReulst = factorialRecursive(5);
@@ -80,5 +104,8 @@ int main(void) {
     int indexResult = binarySearchRecursive(vec1, 0, vec1.size() - 1, 11);
     cout << indexResult << endl;
 
+    int arr[] = {20, 25, 26, 29, 33, 1, 3, 5, 6, 10, 11, 19};
+    int index = indexOfRotatedArray(arr, 0, sizeof(arr) / sizeof(int), 0);
+    cout << index << endl;
     return 0;
 }

@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week2/build",
+  "command": "/usr/bin/g++   -g -Wall -Werror -std=gnu++17 -o CMakeFiles/week2.dir/week2.cpp.o -c /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week2/week2.cpp",
+  "file": "/home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week2/week2.cpp"
+}
+]
