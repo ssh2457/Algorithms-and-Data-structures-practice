@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/week1.dir/MyArray.cpp.o"
   "CMakeFiles/week1.dir/MyArray.cpp.o.d"
+  "CMakeFiles/week1.dir/MyHashMap.cpp.o"
+  "CMakeFiles/week1.dir/MyHashMap.cpp.o.d"
   "CMakeFiles/week1.dir/MyHeapAllocation.cpp.o"
   "CMakeFiles/week1.dir/MyHeapAllocation.cpp.o.d"
   "CMakeFiles/week1.dir/MyLinkedList.cpp.o"
@@ -9,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/week1.dir/MyQueue.cpp.o.d"
   "CMakeFiles/week1.dir/MyStack.cpp.o"
   "CMakeFiles/week1.dir/MyStack.cpp.o.d"
+  "CMakeFiles/week1.dir/Node.cpp.o"
+  "CMakeFiles/week1.dir/Node.cpp.o.d"
   "CMakeFiles/week1.dir/test.cpp.o"
   "CMakeFiles/week1.dir/test.cpp.o.d"
   "week1"

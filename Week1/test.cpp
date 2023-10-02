@@ -1,6 +1,7 @@
 #include <iostream>
 
 #include "MyArray.h"
+#include "MyHashMap.h"
 #include "MyLinkedList.h"
 #include "MyQueue.h"
 #include "MyStack.h"
@@ -8,6 +9,22 @@
 using namespace std;
 
 int main(void) {
+    MyHashMap map;
+    map.Add("test1", 1);
+    map.Add("test2", 2);
+    map.Add("test3", 3);
+    map.Add("test4", 4);
+    map.Add("test5", 5);
+    map.Print();
+
+    map.Add("test1", 10);
+    map.Add("test5", 100);
+    map.Print();
+
+    cout << map.Get("test2") << endl;
+    cout << map.Get("nokey") << endl;
+
+    /*
     MyLinkedList list;
     list.insertFront(3);
     list.insertFront(5);
@@ -16,7 +33,8 @@ int main(void) {
     list.printNode();
     list.remove(3);
     list.printNode();
-    /*
+    */
+
     MyArray array1;
     array1.insertAt(0, 0);
     array1.insertAt(0, 1);
@@ -37,7 +55,7 @@ int main(void) {
     array1.printInfo();
 
     cout << "index: " << array1.findIndex(20) << endl;
-
+    /*
     MyStack stack1;
 
     stack1.push(10);

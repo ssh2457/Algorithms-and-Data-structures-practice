@@ -28,5 +28,15 @@
   "directory": "/home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/build",
   "command": "/usr/bin/g++   -g -Wall -Werror -std=gnu++17 -o CMakeFiles/week1.dir/MyLinkedList.cpp.o -c /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/MyLinkedList.cpp",
   "file": "/home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/MyLinkedList.cpp"
+},
+{
+  "directory": "/home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/build",
+  "command": "/usr/bin/g++   -g -Wall -Werror -std=gnu++17 -o CMakeFiles/week1.dir/Node.cpp.o -c /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/Node.cpp",
+  "file": "/home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/Node.cpp"
+},
+{
+  "directory": "/home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/build",
+  "command": "/usr/bin/g++   -g -Wall -Werror -std=gnu++17 -o CMakeFiles/week1.dir/MyHashMap.cpp.o -c /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/MyHashMap.cpp",
+  "file": "/home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week1/MyHashMap.cpp"
 }
 ]

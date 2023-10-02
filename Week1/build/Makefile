@@ -153,6 +153,30 @@ MyArray.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/week1.dir/build.make CMakeFiles/week1.dir/MyArray.cpp.s
 .PHONY : MyArray.cpp.s
 
+MyHashMap.o: MyHashMap.cpp.o
+.PHONY : MyHashMap.o
+
+# target to build an object file
+MyHashMap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week1.dir/build.make CMakeFiles/week1.dir/MyHashMap.cpp.o
+.PHONY : MyHashMap.cpp.o
+
+MyHashMap.i: MyHashMap.cpp.i
+.PHONY : MyHashMap.i
+
+# target to preprocess a source file
+MyHashMap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week1.dir/build.make CMakeFiles/week1.dir/MyHashMap.cpp.i
+.PHONY : MyHashMap.cpp.i
+
+MyHashMap.s: MyHashMap.cpp.s
+.PHONY : MyHashMap.s
+
+# target to generate assembly for a file
+MyHashMap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week1.dir/build.make CMakeFiles/week1.dir/MyHashMap.cpp.s
+.PHONY : MyHashMap.cpp.s
+
 MyHeapAllocation.o: MyHeapAllocation.cpp.o
 .PHONY : MyHeapAllocation.o
 
@@ -249,6 +273,30 @@ MyStack.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/week1.dir/build.make CMakeFiles/week1.dir/MyStack.cpp.s
 .PHONY : MyStack.cpp.s
 
+Node.o: Node.cpp.o
+.PHONY : Node.o
+
+# target to build an object file
+Node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week1.dir/build.make CMakeFiles/week1.dir/Node.cpp.o
+.PHONY : Node.cpp.o
+
+Node.i: Node.cpp.i
+.PHONY : Node.i
+
+# target to preprocess a source file
+Node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week1.dir/build.make CMakeFiles/week1.dir/Node.cpp.i
+.PHONY : Node.cpp.i
+
+Node.s: Node.cpp.s
+.PHONY : Node.s
+
+# target to generate assembly for a file
+Node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week1.dir/build.make CMakeFiles/week1.dir/Node.cpp.s
+.PHONY : Node.cpp.s
+
 test.o: test.cpp.o
 .PHONY : test.o
 
@@ -285,6 +333,9 @@ help:
 	@echo "... MyArray.o"
 	@echo "... MyArray.i"
 	@echo "... MyArray.s"
+	@echo "... MyHashMap.o"
+	@echo "... MyHashMap.i"
+	@echo "... MyHashMap.s"
 	@echo "... MyHeapAllocation.o"
 	@echo "... MyHeapAllocation.i"
 	@echo "... MyHeapAllocation.s"
@@ -297,6 +348,9 @@ help:
 	@echo "... MyStack.o"
 	@echo "... MyStack.i"
 	@echo "... MyStack.s"
+	@echo "... Node.o"
+	@echo "... Node.i"
+	@echo "... Node.s"
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"

@@ -17,7 +17,7 @@ void MyArray::insertAt(size_t index, int num) {
     }
 
     if (index <= mSize) {
-        for (int i = mSize; i > index; --i) {
+        for (size_t i = mSize; i > index; --i) {
             mHeap[i] = mHeap[i - 1];
         }
         mHeap[index] = num;
@@ -26,7 +26,7 @@ void MyArray::insertAt(size_t index, int num) {
 }
 
 size_t MyArray::findIndex(int num) {
-    for (int i = 0; i < mSize; ++i) {
+    for (size_t i = 0; i < mSize; ++i) {
         if (mHeap[i] == num) {
             return i;
         }
