@@ -10,7 +10,7 @@ using namespace std;
 
 class MyHashMap {
    public:
-    MyHashMap() = default;
+    MyHashMap();
     ~MyHashMap() = default;
 
     virtual void Add(const char* key, int value);
@@ -19,9 +19,7 @@ class MyHashMap {
 
    private:
     static constexpr int MAX_SIZE = 10;
-    shared_ptr<Node> mArray[MAX_SIZE] = {
-        nullptr,
-    };
+    shared_ptr<Node> mArray[MAX_SIZE];
 
-    size_t Hash_65599(const char* str, size_t len);
+    size_t Hash_65599(const void* str, size_t len);
 };

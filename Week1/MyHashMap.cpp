@@ -2,6 +2,10 @@
 
 #include <iostream>
 
+MyHashMap::MyHashMap() {
+    memset(mArray, 0, MAX_SIZE);
+}
+
 void MyHashMap::Add(const char* key, int value) {
     shared_ptr<Node> newNode = make_shared<Node>(key, value);
     size_t hash = Hash_65599(key, strlen(key));
@@ -21,8 +25,9 @@ void MyHashMap::Add(const char* key, int value) {
     }
 
     while (current->GetNext() != nullptr) {
-        if (current->GetNext()->GetKey() == key) {
-            newNode->SetNext(current->GetNext()->GetNext());
+        shared_ptr<Node> next = current->GetNext();
+        if (next->GetKey() == key) {
+            newNode->SetNext(next->GetNext());
             current->SetNext(newNode);
             return;
         }
@@ -61,10 +66,12 @@ void MyHashMap::Print() const {
     }
 }
 
-size_t MyHashMap::Hash_65599(const char* str, size_t len) {
+size_t MyHashMap::Hash_65599(const void* key, size_t len) {
     size_t hash = 0;
+    const char* pKey = static_cast<const char*>(key);
+
     for (size_t i = 0; i < len; ++i) {
-        hash = 65599 * hash + str[i];
+        hash = 65599 * hash + *pKey++;
     }
 
     return hash ^ (hash >> 16);

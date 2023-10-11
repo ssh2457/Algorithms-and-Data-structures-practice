@@ -13,11 +13,11 @@ MyLinkedList::~MyLinkedList() {
 }
 
 void MyLinkedList::destroy() {
-    node_t* p = mHead;
-    while (p != nullptr) {
-        node_t* next = p->next;
-        free(p);
-        p = next;
+    node_t* node = mHead;
+    while (node != nullptr) {
+        node_t* next = node->next;
+        free(node);
+        node = next;
     }
     mHead = nullptr;
 }
@@ -28,34 +28,36 @@ void MyLinkedList::insertFront(int num) {
 
     newNode->value = num;
     newNode->next = mHead;
+
     mHead = newNode;
 }
 
 void MyLinkedList::printNode() {
-    node_t* p = mHead;
+    node_t* node = mHead;
     cout << "value: ";
-    while (p != nullptr) {
-        cout << p->value << " ";
-        p = p->next;
+    while (node != nullptr) {
+        cout << node->value << " ";
+        node = node->next;
     }
     cout << endl;
 }
 
 void MyLinkedList::remove(int num) {
-    node_t* p = mHead;
-    node_t* pre = mHead;
-    while (p != nullptr) {
-        if (p->value == num) {
-            if (p == mHead) {
-                mHead = p->next;
+    node_t* node = mHead;
+    node_t* preNode = mHead;
+
+    while (node != nullptr) {
+        if (node->value == num) {
+            if (node == mHead) {
+                mHead = node->next;
             } else {
-                pre->next = p->next;
+                preNode->next = node->next;
             }
 
-            free(p);
+            free(node);
             break;
         }
-        pre = p;
-        p = p->next;
+        preNode = node;
+        node = node->next;
     }
 }

@@ -47,8 +47,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.22/Modules/Compiler/Borland-DetermineCompiler.cmake"
   "/usr/share/cmake-3.22/Modules/Compiler/Bruce-C-DetermineCompiler.cmake"
   "/usr/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+  "/usr/share/cmake-3.22/Modules/Compiler/Clang-C.cmake"
   "/usr/share/cmake-3.22/Modules/Compiler/Clang-DetermineCompiler.cmake"
   "/usr/share/cmake-3.22/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+  "/usr/share/cmake-3.22/Modules/Compiler/Clang-FindBinUtils.cmake"
+  "/usr/share/cmake-3.22/Modules/Compiler/Clang.cmake"
   "/usr/share/cmake-3.22/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake"
   "/usr/share/cmake-3.22/Modules/Compiler/Compaq-C-DetermineCompiler.cmake"
   "/usr/share/cmake-3.22/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake"
@@ -58,7 +61,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.22/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake"
   "/usr/share/cmake-3.22/Modules/Compiler/GHS-DetermineCompiler.cmake"
   "/usr/share/cmake-3.22/Modules/Compiler/GNU-C-DetermineCompiler.cmake"
-  "/usr/share/cmake-3.22/Modules/Compiler/GNU-C.cmake"
   "/usr/share/cmake-3.22/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake"
   "/usr/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake"
   "/usr/share/cmake-3.22/Modules/Compiler/GNU-FindBinUtils.cmake"
@@ -92,6 +94,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.22/Modules/Compiler/zOS-C-DetermineCompiler.cmake"
   "/usr/share/cmake-3.22/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake"
   "/usr/share/cmake-3.22/Modules/Internal/FeatureTesting.cmake"
+  "/usr/share/cmake-3.22/Modules/Platform/Linux-Clang-C.cmake"
   "/usr/share/cmake-3.22/Modules/Platform/Linux-Determine-CXX.cmake"
   "/usr/share/cmake-3.22/Modules/Platform/Linux-GNU-C.cmake"
   "/usr/share/cmake-3.22/Modules/Platform/Linux-GNU-CXX.cmake"
@@ -118,5 +121,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/week1.dir/DependInfo.cmake"
+  "CMakeFiles/week3.dir/DependInfo.cmake"
   )
