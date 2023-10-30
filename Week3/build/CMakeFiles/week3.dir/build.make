@@ -73,15 +73,15 @@ CMakeFiles/week3.dir/week3.cpp.o: CMakeFiles/week3.dir/flags.make
 CMakeFiles/week3.dir/week3.cpp.o: ../week3.cpp
 CMakeFiles/week3.dir/week3.cpp.o: CMakeFiles/week3.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/week3.dir/week3.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/week3.dir/week3.cpp.o -MF CMakeFiles/week3.dir/week3.cpp.o.d -o CMakeFiles/week3.dir/week3.cpp.o -c /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week3/week3.cpp
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/week3.dir/week3.cpp.o -MF CMakeFiles/week3.dir/week3.cpp.o.d -o CMakeFiles/week3.dir/week3.cpp.o -c /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week3/week3.cpp
 
 CMakeFiles/week3.dir/week3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/week3.dir/week3.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week3/week3.cpp > CMakeFiles/week3.dir/week3.cpp.i
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week3/week3.cpp > CMakeFiles/week3.dir/week3.cpp.i
 
 CMakeFiles/week3.dir/week3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/week3.dir/week3.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week3/week3.cpp -o CMakeFiles/week3.dir/week3.cpp.s
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week3/week3.cpp -o CMakeFiles/week3.dir/week3.cpp.s
 
 # Object files for target week3
 week3_OBJECTS = \

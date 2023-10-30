@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/week3.dir/week3.cpp.o -o week3 
+/usr/bin/clang++-14 -g CMakeFiles/week3.dir/week3.cpp.o -o week3 
