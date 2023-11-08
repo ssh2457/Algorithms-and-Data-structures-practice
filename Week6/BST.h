@@ -18,6 +18,6 @@ class BST {
    private:
     node_t* mRoot;
 
-    void InsertRecursive(node_t* node, int data);
+    node_t* InsertRecursive(node_t* node, int data);
     node_t* GetNodeOrNullRecursive(node_t* node, int data);
 };
