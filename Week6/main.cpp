@@ -12,12 +12,34 @@ int main(void) {
     bst->Insert(1);
     bst->Insert(3);
 
+    BST* bstCopy = new BST(*bst);
+    bstCopy->GetNodeOrNull(10);
+
     bst->Insert(5);
 
-    node_t* found = bst->GetNodeOrNull(5);
-    cout << found->mData << endl;
+    bst->Insert(8);
+    bst->Insert(15);
+
+    bst->Insert(7);
+    bst->Insert(9);
+
+    bst->Insert(12);
+    bst->PrintByDFS();
+    bst->Delete(10);
+
+    node_t* found = bst->GetNodeOrNull(9);
+    if (found) {
+        cout << found->mData << endl;
+    }
+
+    bst->PrintByDFS();
+    bst->PrintByBFS();
 
     delete bst;
     bst = nullptr;
+
+    delete bstCopy;
+    bstCopy = nullptr;
+
     return 0;
 }
