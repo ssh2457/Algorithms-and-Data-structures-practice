@@ -73,29 +73,29 @@ CMakeFiles/week6.dir/main.cpp.o: CMakeFiles/week6.dir/flags.make
 CMakeFiles/week6.dir/main.cpp.o: ../main.cpp
 CMakeFiles/week6.dir/main.cpp.o: CMakeFiles/week6.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/week6.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/week6.dir/main.cpp.o -MF CMakeFiles/week6.dir/main.cpp.o.d -o CMakeFiles/week6.dir/main.cpp.o -c /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week6/main.cpp
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/week6.dir/main.cpp.o -MF CMakeFiles/week6.dir/main.cpp.o.d -o CMakeFiles/week6.dir/main.cpp.o -c /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week6/main.cpp
 
 CMakeFiles/week6.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/week6.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week6/main.cpp > CMakeFiles/week6.dir/main.cpp.i
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week6/main.cpp > CMakeFiles/week6.dir/main.cpp.i
 
 CMakeFiles/week6.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/week6.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week6/main.cpp -o CMakeFiles/week6.dir/main.cpp.s
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week6/main.cpp -o CMakeFiles/week6.dir/main.cpp.s
 
 CMakeFiles/week6.dir/BST.cpp.o: CMakeFiles/week6.dir/flags.make
 CMakeFiles/week6.dir/BST.cpp.o: ../BST.cpp
 CMakeFiles/week6.dir/BST.cpp.o: CMakeFiles/week6.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/week6.dir/BST.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/week6.dir/BST.cpp.o -MF CMakeFiles/week6.dir/BST.cpp.o.d -o CMakeFiles/week6.dir/BST.cpp.o -c /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week6/BST.cpp
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/week6.dir/BST.cpp.o -MF CMakeFiles/week6.dir/BST.cpp.o.d -o CMakeFiles/week6.dir/BST.cpp.o -c /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week6/BST.cpp
 
 CMakeFiles/week6.dir/BST.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/week6.dir/BST.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week6/BST.cpp > CMakeFiles/week6.dir/BST.cpp.i
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week6/BST.cpp > CMakeFiles/week6.dir/BST.cpp.i
 
 CMakeFiles/week6.dir/BST.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/week6.dir/BST.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week6/BST.cpp -o CMakeFiles/week6.dir/BST.cpp.s
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ssh2457/Documents/Algorithms-and-Data-structures-practice/Week6/BST.cpp -o CMakeFiles/week6.dir/BST.cpp.s
 
 # Object files for target week6
 week6_OBJECTS = \
