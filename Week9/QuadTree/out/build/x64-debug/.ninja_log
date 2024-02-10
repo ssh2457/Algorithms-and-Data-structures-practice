@@ -1,0 +1,18 @@
+# ninja log v5
+10	1009	7293099005539439	QuadTree/CMakeFiles/QuadTree.dir/QuadTree.cpp.obj	58b4666b9e764a0e
+2	762	7293100076825256	QuadTree/CMakeFiles/QuadTree.dir/main.cpp.obj	e3927b2a5e7148bc
+763	1038	7293100078764887	QuadTree/QuadTree.exe	3c5b15db8ba62c53
+18	327	7293098998729441	QuadTree/CMakeFiles/QuadTree.dir/Rectangle.cpp.obj	2122301a7926121
+4	1142	7293106687773046	QuadTree/CMakeFiles/QuadTree.dir/main.cpp.obj	e3927b2a5e7148bc
+13	1152	7293106687906012	QuadTree/CMakeFiles/QuadTree.dir/QuadTree.cpp.obj	58b4666b9e764a0e
+1152	1355	7293106689518909	QuadTree/QuadTree.exe	3c5b15db8ba62c53
+2	950	7293106926740813	QuadTree/CMakeFiles/QuadTree.dir/main.cpp.obj	e3927b2a5e7148bc
+951	1234	7293106928828813	QuadTree/QuadTree.exe	3c5b15db8ba62c53
+3	783	7293107174790739	QuadTree/CMakeFiles/QuadTree.dir/main.cpp.obj	e3927b2a5e7148bc
+784	986	7293107176377915	QuadTree/QuadTree.exe	3c5b15db8ba62c53
+3	1022	7293107428496778	QuadTree/CMakeFiles/QuadTree.dir/main.cpp.obj	e3927b2a5e7148bc
+1023	1233	7293107430578998	QuadTree/QuadTree.exe	3c5b15db8ba62c53
+5	923	7293109059693012	QuadTree/CMakeFiles/QuadTree.dir/QuadTree.cpp.obj	58b4666b9e764a0e
+923	1114	7293109061202569	QuadTree/QuadTree.exe	3c5b15db8ba62c53
+3	771	7293109371931429	QuadTree/CMakeFiles/QuadTree.dir/main.cpp.obj	e3927b2a5e7148bc
+772	1063	7293109374371284	QuadTree/QuadTree.exe	3c5b15db8ba62c53

@@ -8,7 +8,7 @@ Week 2: Implement recursive functions and a binary search algorithm.
 
 Week 3: Implement sorting algorithms.
 
-Week 4: Implement Hash functions.
+Week 4: Implement Hash functions and a simple HashMap.
 
 Week 6 & 7: Implement Binary tree.
 
