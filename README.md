@@ -14,7 +14,8 @@ Week 6 & 7: Implement Binary tree.
 
 Week 8: DFS (Depth First Search) and BFS (Binary First Search).
 
-Week 9: Implement Quad tree.
+Week 9: Implement Quad Tree.
 
 Week 10: Memoization and Dynamic programming.
 
+Week11: Implement KD Tree

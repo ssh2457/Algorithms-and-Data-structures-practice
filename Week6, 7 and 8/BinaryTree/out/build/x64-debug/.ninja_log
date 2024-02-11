@@ -1,0 +1,11 @@
+# ninja log v5
+2	844	7293583859031628	BinaryTree/CMakeFiles/BinaryTree.dir/BST.cpp.obj	fabbe521b0bfad89
+7	822	7293584413440597	BinaryTree/CMakeFiles/BinaryTree.dir/main.cpp.obj	62231d8854770a61
+823	1202	7293584417067716	BinaryTree/BinaryTree.exe	3641de0882d52bf2
+7	853	7293595480289654	BinaryTree/CMakeFiles/BinaryTree.dir/main.cpp.obj	62231d8854770a61
+854	1188	7293595482476000	BinaryTree/BinaryTree.exe	3641de0882d52bf2
+8	938	7293595768507144	BinaryTree/CMakeFiles/BinaryTree.dir/main.cpp.obj	62231d8854770a61
+17	955	7293595768746741	BinaryTree/CMakeFiles/BinaryTree.dir/BST.cpp.obj	fabbe521b0bfad89
+955	1132	7293595770150380	BinaryTree/BinaryTree.exe	3641de0882d52bf2
+7	918	7293595990176061	BinaryTree/CMakeFiles/BinaryTree.dir/BST.cpp.obj	fabbe521b0bfad89
+918	1124	7293595992058055	BinaryTree/BinaryTree.exe	3641de0882d52bf2

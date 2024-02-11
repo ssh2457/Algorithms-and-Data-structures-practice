@@ -1,0 +1,3 @@
+C:/Users/ssh24/Documents/Algorithms-and-Data-structures-practice/Week6, 7 and 8/out/build/x64-Debug/CMakeFiles/week6.dir
+C:/Users/ssh24/Documents/Algorithms-and-Data-structures-practice/Week6, 7 and 8/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/ssh24/Documents/Algorithms-and-Data-structures-practice/Week6, 7 and 8/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
